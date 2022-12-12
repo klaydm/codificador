@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <title>Encriptador - Alura Challenge 1.0</title>
+</head>
+<body>
+
+  <header>
+    <img src="img/logo.png" alt="Logo da Alura">
+  </header>
+
+<main>
+  <section>
+    <textarea class="input-texto" cols="40" rows="10" placeholder="Digite seu texto"></textarea>
+    <div>
+      <h6 class="informacao">Apenas letras minúsculas e sem acento.</h6>
+    </div>
+    <div class="botoes">
+      <button class="codificar" onclick="btnCodificar()">Codificar</button>
+      <button class="decodificar" onclick="btnDecodificar()">Decodificar</button>
+      <button class="copiar" onclick="btnCopiar()">Copiar</button>
+    </div>
+  </section>
+  
+  <section>
+    <textarea class="mensagem" cols="30" rows="10"></textarea>
+  </section>
+</main>
+  
+<footer>
+  <div class="rodape">
+  Desenvolvido por <a href="https://www.instagram.com/kklaydm/" target="_blank">Kennedy Klaydm</a>
+  </div> 
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
